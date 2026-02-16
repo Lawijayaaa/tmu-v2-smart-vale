@@ -5,22 +5,26 @@ from openpyxl import Workbook
 import requests
 import mysql.connector, time, datetime, math, openpyxl, sys, shutil, os
 from requests.models import StreamConsumedError
-from requests.exceptions import Timeout
+from requests.exceptions import Timeout, RequestException
 import random
 
 engineName = "Trafo B5T01"
 teleURL = 'http://192.168.4.120:1444/api/transformer/sendNotificationToTelegramGroup'
+API_URL = "https://tmu.bambangdjaja.com/triggerAlarmNotification"
 progStat = True
 debugMsg = False
 infoMsg = True
 dryType = False
 gasType = False
-transmitterModeMinus = False
+transmitterModeMinus = True
 
 exhibitStat = False
 OLTCstat = False
 pressureStat = True
 tempStat = True
+
+companyKey = "P66geqk4bYQuetarke2Z"
+raspiSerialNo = "1000000024b2178e"
 
 source = {
     16: 862,
@@ -137,6 +141,7 @@ def main():
                 'High', 
                 'Extreme High']
     msgEvent = [None] * watchedData
+    msgAPI = [None] * watchedData
     msgReminder = [None] * watchedData
     telePrevTime = excelPrevTime  = excelSavePrevTime = datetime.datetime.now()
     cursor.execute(sqlLibrary.sqlFailure)
@@ -340,6 +345,18 @@ def main():
                         activeFailure[activeFailure.index(None)] = lastActive
                         loadProfile = str((round((data.value / trafoData[6]) * 10000))/100) + " Percent , Rated Current = " + str(trafoData[6])
                         msgEvent[i] = str(data.name + " " + messageReason[data.status - 1] + " , Value = " + (loadProfile if i == 3 or i == 4 or i == 5 else str(data.value)) + "\n" + "Time Occurence : " + str(datetime.datetime.now()))
+                        eventType = "alarm" if data.status in [2, 4] else "trip"
+                        eventValue = loadProfile if i == 3 or i == 4 or i == 5 else str(data.value)
+                        msgAPI[i] = {
+                            "companyKey": companyKey,
+                            "raspiSerialNo": raspiSerialNo,
+                            "time_start": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                            "failure_type": messageReason[data.status - 1],
+                            "parameter": data.name,
+                            "parameterValue": eventValue,
+                            "duration": 0,
+                            "event_type": eventType
+                        }                   
                     elif data.status == 3:
                         lastTimestamp = activeFailure[activeParam.index(data.name)][1]
                         duration = int((datetime.datetime.now() - lastTimestamp).total_seconds())
@@ -348,9 +365,24 @@ def main():
                         activeFailure[activeParam.index(data.name)] = None
                         activeParam[activeParam.index(data.name)] = None
                         msgEvent[i] = None
+                        msgAPI[i] = None
                 i = i + 1
         if debugMsg == True: print("1D|11 Check state changes")
         if prevStat != currentStat or prevTrip != currentTrip:
+            for payload in msgAPI:
+                if payload == None:
+                    continue
+                try:
+                    response = requests.post(API_URL, json=payload, timeout=2)
+                    response.raise_for_status()
+                    if infoMsg == True: print("1D|%s" % response.json())
+                    if infoMsg == True: print("1D|Alert sent to API successfully")
+                except Timeout:
+                    if infoMsg == True: print("1D|e: API Message Timeout")
+                except RequestException as e:
+                    if infoMsg == True: print("1D|%s" % Argument)
+                    if infoMsg == True: print("1D|e: API Message Error")
+            tele = list(filter(None, msgEvent))
             #print("Send Telegram Lhooo")
             tele = list(filter(None, msgEvent))
             if tele:

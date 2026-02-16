@@ -131,6 +131,7 @@ def main():
         trafoStat = cursor.fetchall()[0][28]
         cursor.execute(sqlReadStatParam)
         oilTempStat = cursor.fetchall()[0][19]
+        cursor.execute(sqlReadStatParam)
         oilPressStat = cursor.fetchall()[0][23]
         db.commit()
         
@@ -141,7 +142,7 @@ def main():
         else:
             cursor.execute(sqlUpdateDO, [0, 0])
         #Oil Level Alarm
-        if oilStat == 2:
+        if oilStat < 3: #Alarm or Trip
             cursor.execute(sqlUpdateDO, [1, 5])
         else:
             cursor.execute(sqlUpdateDO, [0, 5])
