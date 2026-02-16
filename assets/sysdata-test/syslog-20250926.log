@@ -1,0 +1,699 @@
+2025-09-26 09:39:58,703 | DEBUG: Starting App
+2025-09-26 09:39:58,703 | INFO: Initializing App
+2025-09-26 09:39:58,703 | DEBUG: Start module_IO
+2025-09-26 09:39:58,704 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:39:58,705 | DEBUG: Process module_IO.py started with PID: 2592
+2025-09-26 09:39:58,705 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:39:59,705 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:39:59,707 | DEBUG: Process data_handler.py started with PID: 2596
+2025-09-26 09:39:59,708 | DEBUG: Init GUI Tkinter
+2025-09-26 09:39:59,969 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-09-26 09:39:59,971 | DEBUG: proc2 Initialize program
+2025-09-26 09:39:59,971 | DEBUG: proc2 Start loop
+2025-09-26 09:44:09,247 | DEBUG: Starting App
+2025-09-26 09:44:09,254 | INFO: Initializing App
+2025-09-26 09:44:09,255 | DEBUG: Start module_IO
+2025-09-26 09:44:09,255 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:44:09,256 | DEBUG: Process module_IO.py started with PID: 668
+2025-09-26 09:44:09,257 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:44:10,257 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:44:10,259 | DEBUG: Process data_handler.py started with PID: 802
+2025-09-26 09:44:10,259 | DEBUG: Init GUI Tkinter
+2025-09-26 09:44:10,338 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:44:20,812 | DEBUG: Starting App
+2025-09-26 09:44:20,813 | INFO: Initializing App
+2025-09-26 09:44:20,813 | DEBUG: Start module_IO
+2025-09-26 09:44:20,813 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:44:20,814 | DEBUG: Process module_IO.py started with PID: 1116
+2025-09-26 09:44:20,814 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:44:21,814 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:44:21,816 | DEBUG: Process data_handler.py started with PID: 1121
+2025-09-26 09:44:21,816 | DEBUG: Init GUI Tkinter
+2025-09-26 09:44:23,256 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:44:33,469 | DEBUG: Starting App
+2025-09-26 09:44:33,470 | INFO: Initializing App
+2025-09-26 09:44:33,470 | DEBUG: Start module_IO
+2025-09-26 09:44:33,470 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:44:33,471 | DEBUG: Process module_IO.py started with PID: 1132
+2025-09-26 09:44:33,471 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:44:34,471 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:44:34,473 | DEBUG: Process data_handler.py started with PID: 1136
+2025-09-26 09:44:34,473 | DEBUG: Init GUI Tkinter
+2025-09-26 09:44:35,829 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:55:01,810 | DEBUG: Starting App
+2025-09-26 09:55:01,811 | INFO: Initializing App
+2025-09-26 09:55:01,811 | DEBUG: Start module_IO
+2025-09-26 09:55:01,811 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:55:01,812 | DEBUG: Process module_IO.py started with PID: 1154
+2025-09-26 09:55:01,812 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:55:02,813 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:55:02,815 | DEBUG: Process data_handler.py started with PID: 1169
+2025-09-26 09:55:02,815 | DEBUG: Init GUI Tkinter
+2025-09-26 09:55:06,739 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:55:17,254 | DEBUG: Starting App
+2025-09-26 09:55:17,254 | INFO: Initializing App
+2025-09-26 09:55:17,255 | DEBUG: Start module_IO
+2025-09-26 09:55:17,255 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:55:17,258 | DEBUG: Process module_IO.py started with PID: 2108
+2025-09-26 09:55:17,258 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:55:18,259 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:55:18,270 | DEBUG: Process data_handler.py started with PID: 2113
+2025-09-26 09:55:18,271 | DEBUG: Init GUI Tkinter
+2025-09-26 09:55:18,310 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:55:28,929 | DEBUG: Starting App
+2025-09-26 09:55:28,930 | INFO: Initializing App
+2025-09-26 09:55:28,930 | DEBUG: Start module_IO
+2025-09-26 09:55:28,930 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:55:28,932 | DEBUG: Process module_IO.py started with PID: 2149
+2025-09-26 09:55:28,933 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:55:29,935 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:55:29,938 | DEBUG: Process data_handler.py started with PID: 2153
+2025-09-26 09:55:29,939 | DEBUG: Init GUI Tkinter
+2025-09-26 09:55:29,959 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:55:40,399 | DEBUG: Starting App
+2025-09-26 09:55:40,400 | INFO: Initializing App
+2025-09-26 09:55:40,401 | DEBUG: Start module_IO
+2025-09-26 09:55:40,402 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:55:40,405 | DEBUG: Process module_IO.py started with PID: 2160
+2025-09-26 09:55:40,406 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:55:41,406 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:55:41,407 | DEBUG: Process data_handler.py started with PID: 2164
+2025-09-26 09:55:41,408 | DEBUG: Init GUI Tkinter
+2025-09-26 09:55:41,415 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:55:51,852 | DEBUG: Starting App
+2025-09-26 09:55:51,852 | INFO: Initializing App
+2025-09-26 09:55:51,852 | DEBUG: Start module_IO
+2025-09-26 09:55:51,852 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:55:51,853 | DEBUG: Process module_IO.py started with PID: 2168
+2025-09-26 09:55:51,854 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:55:52,854 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:55:52,855 | DEBUG: Process data_handler.py started with PID: 2172
+2025-09-26 09:55:52,856 | DEBUG: Init GUI Tkinter
+2025-09-26 09:55:52,863 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:56:03,414 | DEBUG: Starting App
+2025-09-26 09:56:03,415 | INFO: Initializing App
+2025-09-26 09:56:03,415 | DEBUG: Start module_IO
+2025-09-26 09:56:03,415 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:56:03,416 | DEBUG: Process module_IO.py started with PID: 2174
+2025-09-26 09:56:03,417 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:56:04,417 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:56:04,418 | DEBUG: Process data_handler.py started with PID: 2178
+2025-09-26 09:56:04,418 | DEBUG: Init GUI Tkinter
+2025-09-26 09:56:04,426 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:56:14,821 | DEBUG: Starting App
+2025-09-26 09:56:14,821 | INFO: Initializing App
+2025-09-26 09:56:14,821 | DEBUG: Start module_IO
+2025-09-26 09:56:14,821 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:56:14,823 | DEBUG: Process module_IO.py started with PID: 2188
+2025-09-26 09:56:14,824 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:56:15,824 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:56:15,825 | DEBUG: Process data_handler.py started with PID: 2192
+2025-09-26 09:56:15,825 | DEBUG: Init GUI Tkinter
+2025-09-26 09:56:15,833 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:56:26,110 | DEBUG: Starting App
+2025-09-26 09:56:26,110 | INFO: Initializing App
+2025-09-26 09:56:26,111 | DEBUG: Start module_IO
+2025-09-26 09:56:26,111 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:56:26,112 | DEBUG: Process module_IO.py started with PID: 2194
+2025-09-26 09:56:26,112 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:56:27,112 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:56:27,114 | DEBUG: Process data_handler.py started with PID: 2198
+2025-09-26 09:56:27,114 | DEBUG: Init GUI Tkinter
+2025-09-26 09:56:27,121 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:56:37,611 | DEBUG: Starting App
+2025-09-26 09:56:37,612 | INFO: Initializing App
+2025-09-26 09:56:37,612 | DEBUG: Start module_IO
+2025-09-26 09:56:37,612 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:56:37,613 | DEBUG: Process module_IO.py started with PID: 2200
+2025-09-26 09:56:37,613 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:56:38,614 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:56:38,615 | DEBUG: Process data_handler.py started with PID: 2204
+2025-09-26 09:56:38,615 | DEBUG: Init GUI Tkinter
+2025-09-26 09:56:38,623 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:56:49,067 | DEBUG: Starting App
+2025-09-26 09:56:49,067 | INFO: Initializing App
+2025-09-26 09:56:49,068 | DEBUG: Start module_IO
+2025-09-26 09:56:49,068 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:56:49,069 | DEBUG: Process module_IO.py started with PID: 2206
+2025-09-26 09:56:49,069 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:56:50,069 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:56:50,071 | DEBUG: Process data_handler.py started with PID: 2210
+2025-09-26 09:56:50,071 | DEBUG: Init GUI Tkinter
+2025-09-26 09:56:50,079 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:00,311 | DEBUG: Starting App
+2025-09-26 09:57:00,311 | INFO: Initializing App
+2025-09-26 09:57:00,311 | DEBUG: Start module_IO
+2025-09-26 09:57:00,311 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:00,312 | DEBUG: Process module_IO.py started with PID: 2212
+2025-09-26 09:57:00,313 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:01,313 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:01,315 | DEBUG: Process data_handler.py started with PID: 2216
+2025-09-26 09:57:01,316 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:01,330 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:11,558 | DEBUG: Starting App
+2025-09-26 09:57:11,559 | INFO: Initializing App
+2025-09-26 09:57:11,559 | DEBUG: Start module_IO
+2025-09-26 09:57:11,559 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:11,560 | DEBUG: Process module_IO.py started with PID: 2218
+2025-09-26 09:57:11,560 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:12,561 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:12,562 | DEBUG: Process data_handler.py started with PID: 2222
+2025-09-26 09:57:12,562 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:12,570 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:22,823 | DEBUG: Starting App
+2025-09-26 09:57:22,823 | INFO: Initializing App
+2025-09-26 09:57:22,823 | DEBUG: Start module_IO
+2025-09-26 09:57:22,824 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:22,825 | DEBUG: Process module_IO.py started with PID: 2224
+2025-09-26 09:57:22,825 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:23,825 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:23,826 | DEBUG: Process data_handler.py started with PID: 2228
+2025-09-26 09:57:23,827 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:23,834 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:34,059 | DEBUG: Starting App
+2025-09-26 09:57:34,059 | INFO: Initializing App
+2025-09-26 09:57:34,059 | DEBUG: Start module_IO
+2025-09-26 09:57:34,059 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:34,060 | DEBUG: Process module_IO.py started with PID: 2230
+2025-09-26 09:57:34,061 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:35,061 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:35,062 | DEBUG: Process data_handler.py started with PID: 2234
+2025-09-26 09:57:35,062 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:35,070 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:45,316 | DEBUG: Starting App
+2025-09-26 09:57:45,316 | INFO: Initializing App
+2025-09-26 09:57:45,316 | DEBUG: Start module_IO
+2025-09-26 09:57:45,317 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:45,318 | DEBUG: Process module_IO.py started with PID: 2236
+2025-09-26 09:57:45,318 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:46,318 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:46,320 | DEBUG: Process data_handler.py started with PID: 2240
+2025-09-26 09:57:46,320 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:46,327 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:57:56,564 | DEBUG: Starting App
+2025-09-26 09:57:56,564 | INFO: Initializing App
+2025-09-26 09:57:56,564 | DEBUG: Start module_IO
+2025-09-26 09:57:56,564 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:57:56,565 | DEBUG: Process module_IO.py started with PID: 2242
+2025-09-26 09:57:56,565 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:57:57,566 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:57:57,567 | DEBUG: Process data_handler.py started with PID: 2246
+2025-09-26 09:57:57,567 | DEBUG: Init GUI Tkinter
+2025-09-26 09:57:57,575 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:58:07,816 | DEBUG: Starting App
+2025-09-26 09:58:07,816 | INFO: Initializing App
+2025-09-26 09:58:07,816 | DEBUG: Start module_IO
+2025-09-26 09:58:07,816 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:58:07,817 | DEBUG: Process module_IO.py started with PID: 2248
+2025-09-26 09:58:07,818 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:58:08,818 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:58:08,819 | DEBUG: Process data_handler.py started with PID: 2252
+2025-09-26 09:58:08,819 | DEBUG: Init GUI Tkinter
+2025-09-26 09:58:08,827 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:58:19,067 | DEBUG: Starting App
+2025-09-26 09:58:19,067 | INFO: Initializing App
+2025-09-26 09:58:19,068 | DEBUG: Start module_IO
+2025-09-26 09:58:19,068 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:58:19,069 | DEBUG: Process module_IO.py started with PID: 2254
+2025-09-26 09:58:19,069 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:58:20,070 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:58:20,071 | DEBUG: Process data_handler.py started with PID: 2258
+2025-09-26 09:58:20,071 | DEBUG: Init GUI Tkinter
+2025-09-26 09:58:20,079 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:58:30,337 | DEBUG: Starting App
+2025-09-26 09:58:30,337 | INFO: Initializing App
+2025-09-26 09:58:30,338 | DEBUG: Start module_IO
+2025-09-26 09:58:30,338 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:58:30,339 | DEBUG: Process module_IO.py started with PID: 2312
+2025-09-26 09:58:30,339 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:58:31,345 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:58:31,347 | DEBUG: Process data_handler.py started with PID: 2454
+2025-09-26 09:58:31,347 | DEBUG: Init GUI Tkinter
+2025-09-26 09:58:31,358 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:58:41,605 | DEBUG: Starting App
+2025-09-26 09:58:41,605 | INFO: Initializing App
+2025-09-26 09:58:41,605 | DEBUG: Start module_IO
+2025-09-26 09:58:41,605 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:58:41,607 | DEBUG: Process module_IO.py started with PID: 2464
+2025-09-26 09:58:41,607 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:58:42,607 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:58:42,608 | DEBUG: Process data_handler.py started with PID: 2468
+2025-09-26 09:58:42,609 | DEBUG: Init GUI Tkinter
+2025-09-26 09:58:42,616 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:58:53,103 | DEBUG: Starting App
+2025-09-26 09:58:53,103 | INFO: Initializing App
+2025-09-26 09:58:53,103 | DEBUG: Start module_IO
+2025-09-26 09:58:53,103 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:58:53,104 | DEBUG: Process module_IO.py started with PID: 2481
+2025-09-26 09:58:53,105 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:58:54,105 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:58:54,107 | DEBUG: Process data_handler.py started with PID: 2515
+2025-09-26 09:58:54,107 | DEBUG: Init GUI Tkinter
+2025-09-26 09:58:54,117 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:59:04,632 | DEBUG: Starting App
+2025-09-26 09:59:04,633 | INFO: Initializing App
+2025-09-26 09:59:04,633 | DEBUG: Start module_IO
+2025-09-26 09:59:04,633 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:59:04,636 | DEBUG: Process module_IO.py started with PID: 2520
+2025-09-26 09:59:04,636 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:59:05,637 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:59:05,638 | DEBUG: Process data_handler.py started with PID: 2524
+2025-09-26 09:59:05,638 | DEBUG: Init GUI Tkinter
+2025-09-26 09:59:05,646 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:59:16,093 | DEBUG: Starting App
+2025-09-26 09:59:16,093 | INFO: Initializing App
+2025-09-26 09:59:16,094 | DEBUG: Start module_IO
+2025-09-26 09:59:16,094 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:59:16,096 | DEBUG: Process module_IO.py started with PID: 2527
+2025-09-26 09:59:16,097 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:59:17,101 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:59:17,102 | DEBUG: Process data_handler.py started with PID: 2531
+2025-09-26 09:59:17,103 | DEBUG: Init GUI Tkinter
+2025-09-26 09:59:17,110 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:59:27,352 | DEBUG: Starting App
+2025-09-26 09:59:27,352 | INFO: Initializing App
+2025-09-26 09:59:27,352 | DEBUG: Start module_IO
+2025-09-26 09:59:27,352 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:59:27,353 | DEBUG: Process module_IO.py started with PID: 2535
+2025-09-26 09:59:27,354 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:59:28,354 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:59:28,355 | DEBUG: Process data_handler.py started with PID: 2539
+2025-09-26 09:59:28,356 | DEBUG: Init GUI Tkinter
+2025-09-26 09:59:28,363 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:59:38,606 | DEBUG: Starting App
+2025-09-26 09:59:38,607 | INFO: Initializing App
+2025-09-26 09:59:38,607 | DEBUG: Start module_IO
+2025-09-26 09:59:38,607 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:59:38,608 | DEBUG: Process module_IO.py started with PID: 2542
+2025-09-26 09:59:38,608 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:59:39,608 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:59:39,610 | DEBUG: Process data_handler.py started with PID: 2546
+2025-09-26 09:59:39,610 | DEBUG: Init GUI Tkinter
+2025-09-26 09:59:39,617 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 09:59:49,841 | DEBUG: Starting App
+2025-09-26 09:59:49,841 | INFO: Initializing App
+2025-09-26 09:59:49,841 | DEBUG: Start module_IO
+2025-09-26 09:59:49,841 | DEBUG: Starting process: module_IO.py
+2025-09-26 09:59:49,842 | DEBUG: Process module_IO.py started with PID: 2549
+2025-09-26 09:59:49,843 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 09:59:50,843 | DEBUG: Starting process: data_handler.py
+2025-09-26 09:59:50,844 | DEBUG: Process data_handler.py started with PID: 2553
+2025-09-26 09:59:50,844 | DEBUG: Init GUI Tkinter
+2025-09-26 09:59:50,852 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:01,104 | DEBUG: Starting App
+2025-09-26 10:00:01,105 | INFO: Initializing App
+2025-09-26 10:00:01,105 | DEBUG: Start module_IO
+2025-09-26 10:00:01,105 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:01,107 | DEBUG: Process module_IO.py started with PID: 2556
+2025-09-26 10:00:01,107 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:02,107 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:02,108 | DEBUG: Process data_handler.py started with PID: 2560
+2025-09-26 10:00:02,109 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:02,116 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:12,359 | DEBUG: Starting App
+2025-09-26 10:00:12,359 | INFO: Initializing App
+2025-09-26 10:00:12,359 | DEBUG: Start module_IO
+2025-09-26 10:00:12,359 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:12,360 | DEBUG: Process module_IO.py started with PID: 2562
+2025-09-26 10:00:12,361 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:13,361 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:13,362 | DEBUG: Process data_handler.py started with PID: 2566
+2025-09-26 10:00:13,362 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:13,370 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:23,611 | DEBUG: Starting App
+2025-09-26 10:00:23,611 | INFO: Initializing App
+2025-09-26 10:00:23,612 | DEBUG: Start module_IO
+2025-09-26 10:00:23,612 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:23,613 | DEBUG: Process module_IO.py started with PID: 2569
+2025-09-26 10:00:23,613 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:24,613 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:24,615 | DEBUG: Process data_handler.py started with PID: 2573
+2025-09-26 10:00:24,615 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:24,622 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:35,111 | DEBUG: Starting App
+2025-09-26 10:00:35,112 | INFO: Initializing App
+2025-09-26 10:00:35,112 | DEBUG: Start module_IO
+2025-09-26 10:00:35,112 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:35,113 | DEBUG: Process module_IO.py started with PID: 2577
+2025-09-26 10:00:35,113 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:36,113 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:36,115 | DEBUG: Process data_handler.py started with PID: 2581
+2025-09-26 10:00:36,115 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:36,122 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:46,610 | DEBUG: Starting App
+2025-09-26 10:00:46,611 | INFO: Initializing App
+2025-09-26 10:00:46,611 | DEBUG: Start module_IO
+2025-09-26 10:00:46,611 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:46,612 | DEBUG: Process module_IO.py started with PID: 2583
+2025-09-26 10:00:46,612 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:47,613 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:47,614 | DEBUG: Process data_handler.py started with PID: 2587
+2025-09-26 10:00:47,614 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:47,621 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:00:58,095 | DEBUG: Starting App
+2025-09-26 10:00:58,095 | INFO: Initializing App
+2025-09-26 10:00:58,095 | DEBUG: Start module_IO
+2025-09-26 10:00:58,096 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:00:58,097 | DEBUG: Process module_IO.py started with PID: 2589
+2025-09-26 10:00:58,097 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:00:59,097 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:00:59,098 | DEBUG: Process data_handler.py started with PID: 2593
+2025-09-26 10:00:59,099 | DEBUG: Init GUI Tkinter
+2025-09-26 10:00:59,106 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:01:09,348 | DEBUG: Starting App
+2025-09-26 10:01:09,348 | INFO: Initializing App
+2025-09-26 10:01:09,348 | DEBUG: Start module_IO
+2025-09-26 10:01:09,348 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:01:09,350 | DEBUG: Process module_IO.py started with PID: 2595
+2025-09-26 10:01:09,350 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:01:10,350 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:01:10,351 | DEBUG: Process data_handler.py started with PID: 2600
+2025-09-26 10:01:10,352 | DEBUG: Init GUI Tkinter
+2025-09-26 10:01:10,359 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:01:20,606 | DEBUG: Starting App
+2025-09-26 10:01:20,606 | INFO: Initializing App
+2025-09-26 10:01:20,606 | DEBUG: Start module_IO
+2025-09-26 10:01:20,606 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:01:20,607 | DEBUG: Process module_IO.py started with PID: 2602
+2025-09-26 10:01:20,608 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:01:21,608 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:01:21,609 | DEBUG: Process data_handler.py started with PID: 2606
+2025-09-26 10:01:21,609 | DEBUG: Init GUI Tkinter
+2025-09-26 10:01:21,617 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:01:31,849 | DEBUG: Starting App
+2025-09-26 10:01:31,849 | INFO: Initializing App
+2025-09-26 10:01:31,849 | DEBUG: Start module_IO
+2025-09-26 10:01:31,849 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:01:31,850 | DEBUG: Process module_IO.py started with PID: 2608
+2025-09-26 10:01:31,851 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:01:32,851 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:01:32,852 | DEBUG: Process data_handler.py started with PID: 2612
+2025-09-26 10:01:32,852 | DEBUG: Init GUI Tkinter
+2025-09-26 10:01:32,860 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:01:43,058 | DEBUG: Starting App
+2025-09-26 10:01:43,059 | INFO: Initializing App
+2025-09-26 10:01:43,059 | DEBUG: Start module_IO
+2025-09-26 10:01:43,059 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:01:43,060 | DEBUG: Process module_IO.py started with PID: 2614
+2025-09-26 10:01:43,060 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:01:44,061 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:01:44,063 | DEBUG: Process data_handler.py started with PID: 2618
+2025-09-26 10:01:44,063 | DEBUG: Init GUI Tkinter
+2025-09-26 10:01:44,078 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:01:54,313 | DEBUG: Starting App
+2025-09-26 10:01:54,313 | INFO: Initializing App
+2025-09-26 10:01:54,313 | DEBUG: Start module_IO
+2025-09-26 10:01:54,313 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:01:54,315 | DEBUG: Process module_IO.py started with PID: 2632
+2025-09-26 10:01:54,315 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:01:55,315 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:01:55,317 | DEBUG: Process data_handler.py started with PID: 2643
+2025-09-26 10:01:55,318 | DEBUG: Init GUI Tkinter
+2025-09-26 10:01:55,330 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:02:05,558 | DEBUG: Starting App
+2025-09-26 10:02:05,558 | INFO: Initializing App
+2025-09-26 10:02:05,559 | DEBUG: Start module_IO
+2025-09-26 10:02:05,559 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:02:05,560 | DEBUG: Process module_IO.py started with PID: 2671
+2025-09-26 10:02:05,560 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:02:06,561 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:02:06,562 | DEBUG: Process data_handler.py started with PID: 2675
+2025-09-26 10:02:06,562 | DEBUG: Init GUI Tkinter
+2025-09-26 10:02:06,570 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:02:16,806 | DEBUG: Starting App
+2025-09-26 10:02:16,806 | INFO: Initializing App
+2025-09-26 10:02:16,806 | DEBUG: Start module_IO
+2025-09-26 10:02:16,806 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:02:16,807 | DEBUG: Process module_IO.py started with PID: 2677
+2025-09-26 10:02:16,807 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:02:17,808 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:02:17,809 | DEBUG: Process data_handler.py started with PID: 2681
+2025-09-26 10:02:17,809 | DEBUG: Init GUI Tkinter
+2025-09-26 10:02:17,817 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:02:28,058 | DEBUG: Starting App
+2025-09-26 10:02:28,058 | INFO: Initializing App
+2025-09-26 10:02:28,058 | DEBUG: Start module_IO
+2025-09-26 10:02:28,058 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:02:28,060 | DEBUG: Process module_IO.py started with PID: 2684
+2025-09-26 10:02:28,060 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:02:29,060 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:02:29,061 | DEBUG: Process data_handler.py started with PID: 2688
+2025-09-26 10:02:29,062 | DEBUG: Init GUI Tkinter
+2025-09-26 10:02:29,069 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:02:39,315 | DEBUG: Starting App
+2025-09-26 10:02:39,315 | INFO: Initializing App
+2025-09-26 10:02:39,315 | DEBUG: Start module_IO
+2025-09-26 10:02:39,315 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:02:39,316 | DEBUG: Process module_IO.py started with PID: 2690
+2025-09-26 10:02:39,317 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:02:40,317 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:02:40,318 | DEBUG: Process data_handler.py started with PID: 2694
+2025-09-26 10:02:40,318 | DEBUG: Init GUI Tkinter
+2025-09-26 10:02:40,326 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:02:50,562 | DEBUG: Starting App
+2025-09-26 10:02:50,562 | INFO: Initializing App
+2025-09-26 10:02:50,562 | DEBUG: Start module_IO
+2025-09-26 10:02:50,562 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:02:50,564 | DEBUG: Process module_IO.py started with PID: 2733
+2025-09-26 10:02:50,564 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:02:51,564 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:02:51,565 | DEBUG: Process data_handler.py started with PID: 2737
+2025-09-26 10:02:51,566 | DEBUG: Init GUI Tkinter
+2025-09-26 10:02:51,573 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:01,876 | DEBUG: Starting App
+2025-09-26 10:03:01,876 | INFO: Initializing App
+2025-09-26 10:03:01,876 | DEBUG: Start module_IO
+2025-09-26 10:03:01,876 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:01,878 | DEBUG: Process module_IO.py started with PID: 2774
+2025-09-26 10:03:01,878 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:02,879 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:02,880 | DEBUG: Process data_handler.py started with PID: 2778
+2025-09-26 10:03:02,881 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:02,889 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:13,321 | DEBUG: Starting App
+2025-09-26 10:03:13,322 | INFO: Initializing App
+2025-09-26 10:03:13,322 | DEBUG: Start module_IO
+2025-09-26 10:03:13,322 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:13,323 | DEBUG: Process module_IO.py started with PID: 2780
+2025-09-26 10:03:13,323 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:14,323 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:14,325 | DEBUG: Process data_handler.py started with PID: 2784
+2025-09-26 10:03:14,325 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:14,332 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:24,578 | DEBUG: Starting App
+2025-09-26 10:03:24,578 | INFO: Initializing App
+2025-09-26 10:03:24,578 | DEBUG: Start module_IO
+2025-09-26 10:03:24,578 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:24,579 | DEBUG: Process module_IO.py started with PID: 2786
+2025-09-26 10:03:24,580 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:25,580 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:25,581 | DEBUG: Process data_handler.py started with PID: 2790
+2025-09-26 10:03:25,582 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:25,589 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:35,852 | DEBUG: Starting App
+2025-09-26 10:03:35,853 | INFO: Initializing App
+2025-09-26 10:03:35,853 | DEBUG: Start module_IO
+2025-09-26 10:03:35,853 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:35,854 | DEBUG: Process module_IO.py started with PID: 2792
+2025-09-26 10:03:35,854 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:36,855 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:36,856 | DEBUG: Process data_handler.py started with PID: 2796
+2025-09-26 10:03:36,856 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:36,868 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:47,103 | DEBUG: Starting App
+2025-09-26 10:03:47,103 | INFO: Initializing App
+2025-09-26 10:03:47,103 | DEBUG: Start module_IO
+2025-09-26 10:03:47,104 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:47,105 | DEBUG: Process module_IO.py started with PID: 2799
+2025-09-26 10:03:47,105 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:48,105 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:48,106 | DEBUG: Process data_handler.py started with PID: 2803
+2025-09-26 10:03:48,107 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:48,114 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:03:58,353 | DEBUG: Starting App
+2025-09-26 10:03:58,354 | INFO: Initializing App
+2025-09-26 10:03:58,354 | DEBUG: Start module_IO
+2025-09-26 10:03:58,354 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:03:58,355 | DEBUG: Process module_IO.py started with PID: 2805
+2025-09-26 10:03:58,355 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:03:59,356 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:03:59,357 | DEBUG: Process data_handler.py started with PID: 2809
+2025-09-26 10:03:59,357 | DEBUG: Init GUI Tkinter
+2025-09-26 10:03:59,365 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:04:09,601 | DEBUG: Starting App
+2025-09-26 10:04:09,602 | INFO: Initializing App
+2025-09-26 10:04:09,602 | DEBUG: Start module_IO
+2025-09-26 10:04:09,602 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:04:09,603 | DEBUG: Process module_IO.py started with PID: 2811
+2025-09-26 10:04:09,603 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:04:10,604 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:04:10,605 | DEBUG: Process data_handler.py started with PID: 2815
+2025-09-26 10:04:10,605 | DEBUG: Init GUI Tkinter
+2025-09-26 10:04:10,612 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:04:20,857 | DEBUG: Starting App
+2025-09-26 10:04:20,857 | INFO: Initializing App
+2025-09-26 10:04:20,857 | DEBUG: Start module_IO
+2025-09-26 10:04:20,857 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:04:20,858 | DEBUG: Process module_IO.py started with PID: 2817
+2025-09-26 10:04:20,859 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:04:21,859 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:04:21,860 | DEBUG: Process data_handler.py started with PID: 2821
+2025-09-26 10:04:21,860 | DEBUG: Init GUI Tkinter
+2025-09-26 10:04:21,868 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:04:32,108 | DEBUG: Starting App
+2025-09-26 10:04:32,108 | INFO: Initializing App
+2025-09-26 10:04:32,108 | DEBUG: Start module_IO
+2025-09-26 10:04:32,108 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:04:32,109 | DEBUG: Process module_IO.py started with PID: 2849
+2025-09-26 10:04:32,109 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:04:33,110 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:04:33,111 | DEBUG: Process data_handler.py started with PID: 2853
+2025-09-26 10:04:33,111 | DEBUG: Init GUI Tkinter
+2025-09-26 10:04:33,119 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:04:38,646 | DEBUG: Starting App
+2025-09-26 10:04:38,665 | INFO: Initializing App
+2025-09-26 10:04:38,665 | DEBUG: Start module_IO
+2025-09-26 10:04:38,666 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:04:38,668 | DEBUG: Process module_IO.py started with PID: 646
+2025-09-26 10:04:38,668 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:04:39,669 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:04:39,671 | DEBUG: Process data_handler.py started with PID: 790
+2025-09-26 10:04:39,671 | DEBUG: Init GUI Tkinter
+2025-09-26 10:04:39,748 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:04:50,197 | DEBUG: Starting App
+2025-09-26 10:04:50,197 | INFO: Initializing App
+2025-09-26 10:04:50,197 | DEBUG: Start module_IO
+2025-09-26 10:04:50,197 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:04:50,198 | DEBUG: Process module_IO.py started with PID: 1108
+2025-09-26 10:04:50,199 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:04:51,199 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:04:51,200 | DEBUG: Process data_handler.py started with PID: 1114
+2025-09-26 10:04:51,200 | DEBUG: Init GUI Tkinter
+2025-09-26 10:04:52,648 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:05:02,852 | DEBUG: Starting App
+2025-09-26 10:05:02,853 | INFO: Initializing App
+2025-09-26 10:05:02,853 | DEBUG: Start module_IO
+2025-09-26 10:05:02,853 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:05:02,854 | DEBUG: Process module_IO.py started with PID: 1137
+2025-09-26 10:05:02,854 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:05:03,855 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:05:03,856 | DEBUG: Process data_handler.py started with PID: 1141
+2025-09-26 10:05:03,857 | DEBUG: Init GUI Tkinter
+2025-09-26 10:05:05,277 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:05:48,353 | DEBUG: Starting App
+2025-09-26 10:05:48,354 | INFO: Initializing App
+2025-09-26 10:05:48,354 | DEBUG: Start module_IO
+2025-09-26 10:05:48,354 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:05:48,355 | DEBUG: Process module_IO.py started with PID: 1155
+2025-09-26 10:05:48,355 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:05:49,355 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:05:49,357 | DEBUG: Process data_handler.py started with PID: 1159
+2025-09-26 10:05:49,357 | DEBUG: Init GUI Tkinter
+2025-09-26 10:05:50,720 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:00,927 | DEBUG: Starting App
+2025-09-26 10:06:00,927 | INFO: Initializing App
+2025-09-26 10:06:00,927 | DEBUG: Start module_IO
+2025-09-26 10:06:00,927 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:00,928 | DEBUG: Process module_IO.py started with PID: 1170
+2025-09-26 10:06:00,928 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:01,929 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:01,931 | DEBUG: Process data_handler.py started with PID: 1174
+2025-09-26 10:06:01,931 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:03,324 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:13,728 | DEBUG: Starting App
+2025-09-26 10:06:13,728 | INFO: Initializing App
+2025-09-26 10:06:13,728 | DEBUG: Start module_IO
+2025-09-26 10:06:13,728 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:13,730 | DEBUG: Process module_IO.py started with PID: 1184
+2025-09-26 10:06:13,730 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:14,730 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:14,731 | DEBUG: Process data_handler.py started with PID: 1188
+2025-09-26 10:06:14,732 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:16,103 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:26,361 | DEBUG: Starting App
+2025-09-26 10:06:26,361 | INFO: Initializing App
+2025-09-26 10:06:26,361 | DEBUG: Start module_IO
+2025-09-26 10:06:26,361 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:26,362 | DEBUG: Process module_IO.py started with PID: 1198
+2025-09-26 10:06:26,363 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:27,363 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:27,364 | DEBUG: Process data_handler.py started with PID: 1202
+2025-09-26 10:06:27,365 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:28,733 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:38,962 | DEBUG: Starting App
+2025-09-26 10:06:38,962 | INFO: Initializing App
+2025-09-26 10:06:38,962 | DEBUG: Start module_IO
+2025-09-26 10:06:38,962 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:38,963 | DEBUG: Process module_IO.py started with PID: 1220
+2025-09-26 10:06:38,963 | DEBUG: Sleep 1s then start data_handler.py
+                                                                                                                                                                                                     2025-09-26 10:06:14,068 | DEBUG: Starting App
+2025-09-26 10:06:14,080 | INFO: Initializing App
+2025-09-26 10:06:14,081 | DEBUG: Start module_IO
+2025-09-26 10:06:14,081 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:14,082 | DEBUG: Process module_IO.py started with PID: 698
+2025-09-26 10:06:14,083 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:15,084 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:15,086 | DEBUG: Process data_handler.py started with PID: 812
+2025-09-26 10:06:15,087 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:15,149 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:25,612 | DEBUG: Starting App
+2025-09-26 10:06:25,612 | INFO: Initializing App
+2025-09-26 10:06:25,612 | DEBUG: Start module_IO
+2025-09-26 10:06:25,613 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:25,614 | DEBUG: Process module_IO.py started with PID: 1121
+2025-09-26 10:06:25,614 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:26,614 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:26,615 | DEBUG: Process data_handler.py started with PID: 1126
+2025-09-26 10:06:26,616 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:28,081 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:06:38,559 | DEBUG: Starting App
+2025-09-26 10:06:38,559 | INFO: Initializing App
+2025-09-26 10:06:38,560 | DEBUG: Start module_IO
+2025-09-26 10:06:38,560 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:06:38,561 | DEBUG: Process module_IO.py started with PID: 1298
+2025-09-26 10:06:38,561 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:06:39,562 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:06:39,563 | DEBUG: Process data_handler.py started with PID: 1303
+2025-09-26 10:06:39,563 | DEBUG: Init GUI Tkinter
+2025-09-26 10:06:39,571 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:07:40,033 | DEBUG: Starting App
+2025-09-26 10:07:40,034 | INFO: Initializing App
+2025-09-26 10:07:40,034 | DEBUG: Start module_IO
+2025-09-26 10:07:40,034 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:07:40,036 | DEBUG: Process module_IO.py started with PID: 2193
+2025-09-26 10:07:40,036 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:07:41,041 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:07:41,042 | DEBUG: Process data_handler.py started with PID: 2365
+2025-09-26 10:07:41,042 | DEBUG: Init GUI Tkinter
+2025-09-26 10:07:43,402 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-09-26 10:07:43,405 | DEBUG: proc2 Initialize program
+2025-09-26 10:07:43,406 | DEBUG: proc2 Start loop
+2025-09-26 10:07:46,172 | DEBUG: proc1 Initialize Program
+2025-09-26 10:07:46,173 | DEBUG: proc1 Open Existing Excel
+2025-09-26 10:07:46,173 | DEBUG: proc1 Start Loop
+2025-09-26 10:09:26,280 | DEBUG: Starting App
+2025-09-26 10:09:26,289 | INFO: Initializing App
+2025-09-26 10:09:26,290 | DEBUG: Start module_IO
+2025-09-26 10:09:26,290 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:09:26,291 | DEBUG: Process module_IO.py started with PID: 662
+2025-09-26 10:09:26,292 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:09:27,294 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:09:27,295 | DEBUG: Process data_handler.py started with PID: 795
+2025-09-26 10:09:27,295 | DEBUG: Init GUI Tkinter
+2025-09-26 10:09:27,383 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-09-26 10:09:37,627 | DEBUG: Starting App
+2025-09-26 10:09:37,627 | INFO: Initializing App
+2025-09-26 10:09:37,627 | DEBUG: Start module_IO
+2025-09-26 10:09:37,628 | DEBUG: Starting process: module_IO.py
+2025-09-26 10:09:37,629 | DEBUG: Process module_IO.py started with PID: 1737
+2025-09-26 10:09:37,629 | DEBUG: Sleep 1s then start data_handler.py
+2025-09-26 10:09:38,630 | DEBUG: Starting process: data_handler.py
+2025-09-26 10:09:38,631 | DEBUG: Process data_handler.py started with PID: 1749
+2025-09-26 10:09:38,631 | DEBUG: Init GUI Tkinter
+2025-09-26 10:09:40,472 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-09-26 10:09:40,473 | DEBUG: proc2 Initialize program
+2025-09-26 10:09:40,473 | DEBUG: proc2 Start loop
+2025-09-26 10:09:40,729 | DEBUG: proc1 Initialize Program
+2025-09-26 10:09:40,729 | DEBUG: proc1 Open Existing Excel
+2025-09-26 10:09:40,730 | DEBUG: proc1 Start Loop
+2026-02-16 12:40:35,030 | INFO: Restarting machine: 2025-09-26 10:09:40.579128

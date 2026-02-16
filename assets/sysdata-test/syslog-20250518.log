@@ -1,0 +1,156 @@
+2025-05-18 10:07:48,100 | DEBUG: Starting App
+2025-05-18 10:07:48,100 | INFO: Initializing App
+2025-05-18 10:07:48,100 | DEBUG: Start module_IO
+2025-05-18 10:07:48,100 | DEBUG: Starting process: module_IO.py
+2025-05-18 10:07:48,101 | DEBUG: Process module_IO.py started with PID: 2234
+2025-05-18 10:07:48,102 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 10:07:49,102 | DEBUG: Starting process: data_handler.py
+2025-05-18 10:07:49,103 | DEBUG: Process data_handler.py started with PID: 2238
+2025-05-18 10:07:49,103 | DEBUG: Init GUI Tkinter
+2025-05-18 10:07:49,333 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 10:07:49,334 | DEBUG: proc2 Initialize program
+2025-05-18 10:07:49,335 | DEBUG: proc2 Start loop
+2025-05-18 10:08:29,811 | DEBUG: proc1 Initialize Program
+2025-05-18 10:08:29,812 | DEBUG: proc1 Start Loop
+2025-05-18 10:34:56,050 | DEBUG: Starting App
+2025-05-18 10:34:56,054 | INFO: Initializing App
+2025-05-18 10:34:56,055 | DEBUG: Start module_IO
+2025-05-18 10:34:56,055 | DEBUG: Starting process: module_IO.py
+2025-05-18 10:34:56,057 | DEBUG: Process module_IO.py started with PID: 697
+2025-05-18 10:34:56,058 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 10:34:57,058 | DEBUG: Starting process: data_handler.py
+2025-05-18 10:34:57,059 | DEBUG: Process data_handler.py started with PID: 813
+2025-05-18 10:34:57,059 | DEBUG: Init GUI Tkinter
+2025-05-18 10:34:57,138 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-05-18 10:35:07,602 | DEBUG: Starting App
+2025-05-18 10:35:07,603 | INFO: Initializing App
+2025-05-18 10:35:07,603 | DEBUG: Start module_IO
+2025-05-18 10:35:07,603 | DEBUG: Starting process: module_IO.py
+2025-05-18 10:35:07,604 | DEBUG: Process module_IO.py started with PID: 1696
+2025-05-18 10:35:07,604 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 10:35:08,604 | DEBUG: Starting process: data_handler.py
+2025-05-18 10:35:08,605 | DEBUG: Process data_handler.py started with PID: 1701
+2025-05-18 10:35:08,606 | DEBUG: Init GUI Tkinter
+2025-05-18 10:35:09,277 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 10:35:09,279 | DEBUG: proc2 Initialize program
+2025-05-18 10:35:09,279 | DEBUG: proc2 Start loop
+2025-05-18 10:35:10,783 | DEBUG: proc1 Initialize Program
+2025-05-18 10:35:10,784 | DEBUG: proc1 Open Existing Excel
+2025-05-18 10:35:10,784 | DEBUG: proc1 Start Loop
+2025-05-18 14:43:18,067 | INFO: Restarting machine: 2025-05-18 10:35:09.617205
+2025-05-18 14:43:20,207 | DEBUG: Starting App
+2025-05-18 14:43:20,208 | INFO: Initializing App
+2025-05-18 14:43:20,208 | DEBUG: Start module_IO
+2025-05-18 14:43:20,208 | DEBUG: Starting process: module_IO.py
+2025-05-18 14:43:20,209 | DEBUG: Process module_IO.py started with PID: 2121
+2025-05-18 14:43:20,209 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 14:43:21,210 | DEBUG: Starting process: data_handler.py
+2025-05-18 14:43:21,211 | DEBUG: Process data_handler.py started with PID: 2127
+2025-05-18 14:43:21,211 | DEBUG: Init GUI Tkinter
+2025-05-18 14:43:21,478 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 14:43:21,482 | DEBUG: proc2 Initialize program
+2025-05-18 14:43:21,483 | DEBUG: proc2 Start loop
+2025-05-18 14:44:01,952 | DEBUG: proc1 Initialize Program
+2025-05-18 14:44:01,952 | DEBUG: proc1 Open Existing Excel
+2025-05-18 14:44:01,952 | DEBUG: proc1 Start Loop
+2025-05-18 14:46:39,147 | DEBUG: proc1 Check Current Excel Size
+2025-05-18 14:46:39,147 | DEBUG: proc1 Backup Excel
+2025-05-18 14:46:39,147 | DEBUG: proc1 Try to save Excel from work stage
+2025-05-18 14:46:39,147 | DEBUG: proc1 Excel Size 9484
+2025-05-18 14:46:39,147 | DEBUG: proc1 Backup Size 7243
+2025-05-18 14:46:39,147 | DEBUG: proc1 Save Success
+2025-05-18 14:57:28,922 | DEBUG: Starting App
+2025-05-18 14:57:28,924 | INFO: Initializing App
+2025-05-18 14:57:28,925 | DEBUG: Start module_IO
+2025-05-18 14:57:28,926 | DEBUG: Starting process: module_IO.py
+2025-05-18 14:57:28,930 | DEBUG: Process module_IO.py started with PID: 24380
+2025-05-18 14:57:28,931 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 14:57:29,932 | DEBUG: Starting process: data_handler.py
+2025-05-18 14:57:29,933 | DEBUG: Process data_handler.py started with PID: 24399
+2025-05-18 14:57:29,934 | DEBUG: Init GUI Tkinter
+2025-05-18 14:57:30,260 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 14:57:30,261 | DEBUG: proc2 Initialize program
+2025-05-18 14:57:30,262 | DEBUG: proc2 Start loop
+2025-05-18 14:57:32,112 | DEBUG: proc1 Initialize Program
+2025-05-18 14:57:33,232 | DEBUG: Starting App
+2025-05-18 14:57:33,232 | INFO: Initializing App
+2025-05-18 14:57:33,233 | DEBUG: Start module_IO
+2025-05-18 14:57:33,233 | DEBUG: Starting process: module_IO.py
+2025-05-18 14:57:33,234 | DEBUG: Process module_IO.py started with PID: 24417
+2025-05-18 14:57:33,234 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 14:57:34,234 | DEBUG: Starting process: data_handler.py
+2025-05-18 14:57:34,235 | DEBUG: Process data_handler.py started with PID: 24421
+2025-05-18 14:57:34,236 | DEBUG: Init GUI Tkinter
+2025-05-18 14:57:34,470 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 14:57:35,655 | DEBUG: proc1 Initialize Program
+2025-05-18 14:58:42,325 | DEBUG: Starting App
+2025-05-18 14:58:42,325 | INFO: Initializing App
+2025-05-18 14:58:42,325 | DEBUG: Start module_IO
+2025-05-18 14:58:42,325 | DEBUG: Starting process: module_IO.py
+2025-05-18 14:58:42,327 | DEBUG: Process module_IO.py started with PID: 24582
+2025-05-18 14:58:42,327 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 14:58:43,328 | DEBUG: Starting process: data_handler.py
+2025-05-18 14:58:43,329 | DEBUG: Process data_handler.py started with PID: 24607
+2025-05-18 14:58:43,330 | DEBUG: Init GUI Tkinter
+2025-05-18 14:58:43,585 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 14:58:43,588 | DEBUG: proc2 Initialize program
+2025-05-18 14:58:43,589 | DEBUG: proc2 Start loop
+2025-05-18 14:58:45,162 | DEBUG: proc1 Initialize Program
+2025-05-18 14:59:31,003 | ERROR: Error in update_tk: main thread is not in main loop
+2025-05-18 14:59:44,731 | ERROR: Error in watchdog: main thread is not in main loop
+2025-05-18 14:59:54,985 | DEBUG: Starting App
+2025-05-18 14:59:54,986 | INFO: Initializing App
+2025-05-18 14:59:54,986 | DEBUG: Start module_IO
+2025-05-18 14:59:54,986 | DEBUG: Starting process: module_IO.py
+2025-05-18 14:59:54,987 | DEBUG: Process module_IO.py started with PID: 24808
+2025-05-18 14:59:54,988 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 14:59:55,988 | DEBUG: Starting process: data_handler.py
+2025-05-18 14:59:55,989 | DEBUG: Process data_handler.py started with PID: 24815
+2025-05-18 14:59:55,989 | DEBUG: Init GUI Tkinter
+2025-05-18 14:59:56,234 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 14:59:56,236 | DEBUG: proc2 Initialize program
+2025-05-18 14:59:56,236 | DEBUG: proc2 Start loop
+2025-05-18 14:59:57,639 | DEBUG: proc1 Initialize Program
+2025-05-18 15:02:11,481 | DEBUG: Starting App
+2025-05-18 15:02:11,482 | INFO: Initializing App
+2025-05-18 15:02:11,482 | DEBUG: Start module_IO
+2025-05-18 15:02:11,482 | DEBUG: Starting process: module_IO.py
+2025-05-18 15:02:11,483 | DEBUG: Process module_IO.py started with PID: 24860
+2025-05-18 15:02:11,483 | DEBUG: Sleep 1s then start data_handler.py
+2025-05-18 15:02:12,484 | DEBUG: Starting process: data_handler.py
+2025-05-18 15:02:12,486 | DEBUG: Process data_handler.py started with PID: 24867
+2025-05-18 15:02:12,487 | DEBUG: Init GUI Tkinter
+2025-05-18 15:02:12,725 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-05-18 15:02:12,726 | DEBUG: proc2 Initialize program
+2025-05-18 15:02:12,727 | DEBUG: proc2 Start loop
+2025-05-18 15:02:53,618 | DEBUG: proc1 Initialize Program
+2025-05-18 15:02:53,618 | DEBUG: proc1 Open Existing Excel
+2025-05-18 15:02:53,618 | DEBUG: proc1 Start Loop
+2025-05-18 15:02:53,619 | DEBUG: proc1 1 Fetch DB Data
+2025-05-18 15:02:53,619 | DEBUG: proc1 3 Import Active Failure
+2025-05-18 15:02:53,619 | DEBUG: proc1 3 Update status Relay
+2025-05-18 15:02:53,619 | DEBUG: proc1 4a Read Modbus Slave
+2025-05-18 15:02:53,620 | DEBUG: proc1 4b Parse Data
+2025-05-18 15:02:53,620 | DEBUG: proc1 5 Read Input IO
+2025-05-18 15:02:53,620 | DEBUG: proc1 6 Calculate WTI
+2025-05-18 15:02:53,620 | DEBUG: proc1 7 Parse Harm, Update DB
+2025-05-18 15:02:53,621 | DEBUG: proc1 8 Calculate KRated
+2025-05-18 15:02:53,621 | DEBUG: proc1 9 Input all data DB
+2025-05-18 15:02:53,621 | DEBUG: proc1 10 Check Failures Stat
+2025-05-18 15:02:53,621 | DEBUG: proc1 11 Check state changes
+2025-05-18 15:02:53,621 | DEBUG: proc1 12A Routine Add data to work stage excel
+2025-05-18 15:02:53,621 | DEBUG: proc1 Cycle time 39.1739
+2025-05-18 15:03:32,775 | DEBUG: proc1 1 Fetch DB Data
+2025-05-18 15:03:32,775 | DEBUG: proc1 3 Import Active Failure
+2025-05-18 15:03:32,776 | DEBUG: proc1 3 Update status Relay
+2025-05-18 15:03:32,776 | DEBUG: proc1 4a Read Modbus Slave
+2025-05-18 15:03:32,776 | DEBUG: proc1 4b Parse Data
+2025-05-18 15:03:32,776 | DEBUG: proc1 5 Read Input IO
+2025-05-18 15:03:32,776 | DEBUG: proc1 6 Calculate WTI
+2025-05-18 15:03:32,776 | DEBUG: proc1 7 Parse Harm, Update DB
+2025-05-18 15:03:32,776 | DEBUG: proc1 8 Calculate KRated
+2025-05-18 15:03:32,777 | DEBUG: proc1 9 Input all data DB
+2025-05-18 15:03:32,777 | DEBUG: proc1 10 Check Failures Stat
+2025-05-18 15:03:32,777 | DEBUG: proc1 11 Check state changes
+2025-05-18 15:03:32,777 | DEBUG: proc1 12A Routine Add data to work stage excel
+2025-05-18 15:03:32,777 | DEBUG: proc1 Cycle time 39.1573

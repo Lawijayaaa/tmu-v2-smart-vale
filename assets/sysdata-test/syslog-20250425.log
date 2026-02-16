@@ -1,0 +1,25 @@
+2025-04-25 13:34:34,729 | DEBUG: Starting App
+2025-04-25 13:34:34,730 | INFO: Initializing App
+2025-04-25 13:34:34,730 | DEBUG: Start module_IO
+2025-04-25 13:34:34,736 | DEBUG: Starting process: module_IO.py
+2025-04-25 13:34:34,751 | DEBUG: Process module_IO.py started with PID: 643
+2025-04-25 13:34:34,751 | DEBUG: Sleep 1s then start data_handler.py
+2025-04-25 13:34:35,752 | DEBUG: Starting process: data_handler.py
+2025-04-25 13:34:35,753 | DEBUG: Process data_handler.py started with PID: 790
+2025-04-25 13:34:35,753 | DEBUG: Init GUI Tkinter
+2025-04-25 13:34:35,847 | ERROR: Error during App initialization: couldn't connect to display ":0"
+2025-04-25 13:34:46,234 | DEBUG: Starting App
+2025-04-25 13:34:46,234 | INFO: Initializing App
+2025-04-25 13:34:46,234 | DEBUG: Start module_IO
+2025-04-25 13:34:46,235 | DEBUG: Starting process: module_IO.py
+2025-04-25 13:34:46,236 | DEBUG: Process module_IO.py started with PID: 1739
+2025-04-25 13:34:46,236 | DEBUG: Sleep 1s then start data_handler.py
+2025-04-25 13:34:47,237 | DEBUG: Starting process: data_handler.py
+2025-04-25 13:34:47,238 | DEBUG: Process data_handler.py started with PID: 1745
+2025-04-25 13:34:47,238 | DEBUG: Init GUI Tkinter
+2025-04-25 13:34:49,147 | DEBUG: Start Threads - Streaming proc 1 and 2, update TK, Watchdog Program
+2025-04-25 13:34:49,149 | DEBUG: proc2 Initialize program
+2025-04-25 13:34:49,149 | DEBUG: proc2 Start loop
+2025-04-25 13:34:49,779 | DEBUG: proc1 Initialize Program
+2025-04-25 13:34:49,779 | DEBUG: proc1 Start Loop
+2025-04-28 08:10:53,550 | INFO: Restarting machine: 2025-04-25 13:34:49.546239
