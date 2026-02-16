@@ -68,6 +68,7 @@ def main():
     prevStatBuzz = data["prevStatBuzz"]
     cursor = db.cursor()
     sqlReadStat = "SELECT * FROM transformer_data"
+    sqlReadStatParam = "SELECT * FROM transformer_status"
     sqlUpdateDO = "UPDATE do_scan SET state = %s WHERE number = %s"
     sqlUpdateDI = "UPDATE di_scan SET state = %s WHERE number = %s"
     if infoMsg == True: print("2D|Start loop")
@@ -128,25 +129,38 @@ def main():
         cursor.execute(sqlUpdateDI, [analogIn2, 7])
         cursor.execute(sqlReadStat)
         trafoStat = cursor.fetchall()[0][28]
+        cursor.execute(sqlReadStatParam)
+        oilTempStat = cursor.fetchall()[0][19]
+        oilPressStat = cursor.fetchall()[0][23]
         db.commit()
         
         if debugMsg == True: print("2D|4 Update DO based on Trafo stat & Gas Fault stat")
+        #General alarm
         if trafoStat == 1:
             cursor.execute(sqlUpdateDO, [1, 0])
-            cursor.execute(sqlUpdateDO, [0, 1])
-            cursor.execute(sqlUpdateDO, [0, 2])
-        elif trafoStat == 2:
-            cursor.execute(sqlUpdateDO, [0, 0])
-            cursor.execute(sqlUpdateDO, [1, 1])
-            cursor.execute(sqlUpdateDO, [0, 2])
-        elif trafoStat == 3:
-            cursor.execute(sqlUpdateDO, [0, 0])
-            cursor.execute(sqlUpdateDO, [0, 1])
-            cursor.execute(sqlUpdateDO, [1, 2])
         else:
             cursor.execute(sqlUpdateDO, [0, 0])
+        #Oil Level Alarm
+        if oilStat == 2:
+            cursor.execute(sqlUpdateDO, [1, 5])
+        else:
+            cursor.execute(sqlUpdateDO, [0, 5])
+        #Oil Temperature
+        if oilTempStat == 3: #Normal
+            cursor.execute(sqlUpdateDO, [0, 6])
             cursor.execute(sqlUpdateDO, [0, 1])
+        elif oilTempStat == 4: #Alarm
+            cursor.execute(sqlUpdateDO, [1, 6])
+            cursor.execute(sqlUpdateDO, [0, 1])
+        elif oilTempStat == 5: #Trip
+            cursor.execute(sqlUpdateDO, [1, 6])
+            cursor.execute(sqlUpdateDO, [1, 1])
+        #Oil Pressure
+        if oilPressStat == 5: #Trip
+            cursor.execute(sqlUpdateDO, [1, 2])
+        else:
             cursor.execute(sqlUpdateDO, [0, 2])
+        
         cursor.execute(sqlUpdateDO, [valveStat, 4])
         
         if debugMsg == True: print("2D|5 PB Logic")

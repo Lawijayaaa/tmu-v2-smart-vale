@@ -8,7 +8,7 @@ from requests.models import StreamConsumedError
 from requests.exceptions import Timeout
 import random
 
-engineName = "Trafo X"
+engineName = "Trafo B5T01"
 teleURL = 'http://192.168.4.120:1444/api/transformer/sendNotificationToTelegramGroup'
 progStat = True
 debugMsg = False
@@ -175,7 +175,7 @@ def main():
                     activeParam[i] = activeFailure[i][4]
         
         if debugMsg == True: print("1D|3 Update status Relay")
-        for i in range(0, 5):
+        for i in range(0, 7):
             time.sleep(0.2)
             if outputIO[i][2] == 1:
                 client.write_coil(i, True, slave = 1)

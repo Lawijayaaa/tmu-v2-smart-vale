@@ -7,6 +7,6 @@ teleURL = 'http://192.168.8.113:1444/api/transformer/sendNotificationToTelegramG
 messages = "Test"
 pload = {'message':messages}
 
+print("Sending message : " + messages)
 r = requests.post(teleURL, data = pload, timeout = 5, verify = False)
-
 print(r)

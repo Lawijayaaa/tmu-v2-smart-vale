@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 from threading import Timer, Lock
 import json
 import math
@@ -217,7 +218,7 @@ def dataParser(exhibitStat, getTemp, getElect1, getElect2, getElect3, getH2, get
         outputData[34] = (unsignedInt32Handler(getElect1.registers[25:27]))/10 #kWh
         outputData[35] = (unsignedInt32Handler(getElect1.registers[27:]))/10 #kVARh
         outputData[32] = (outputData[29] + outputData[30] + outputData[31])/3 #Average PF
-        outputData[9] = (outputData[6] + outputData[7] + outputData[8])/3 #Total Current
+        outputData[9] = (outputData[6] + outputData[7] + outputData[8])/3 #Average Current
         outputData[53] = abs(outputData[0] - outputData[1]) #Gap Voltage Un-Vn
         outputData[54] = abs(outputData[1] - outputData[2]) #Gap Voltage Vn-Wn
         outputData[55] = abs(outputData[0] - outputData[2]) #Gap Voltage Un-Wn
@@ -540,133 +541,224 @@ class TimerEx(object):
         # Call the user defined function
         self._function(*self._args, **self._kwargs)
 
+FONT_MAIN = ("Helvetica", 16)
+FONT_DATA = ("Helvetica", 14)
+BG_COLOR = "#A0D9FF"
+FG_COLOR = "#0F3057"
+
+class MyScreen:
+    def __init__(self):
+        self.screen = tk.Tk()
+        self.screen.title("TMU Gateway")
+
+        width = self.screen.winfo_screenwidth()
+        height = self.screen.winfo_screenheight()
+        self.screen.geometry(f"{width}x{height}")
+        self.screen.configure(background=BG_COLOR)
+        self.screen.attributes("-topmost", True)
+
+        # Emergency exit
+        self.screen.bind("<Escape>", lambda e: self.screen.destroy())
+
+        # =========================
+        # NOTEBOOK (MULTITAB)
+        # =========================
+        self.notebook = ttk.Notebook(self.screen)
+        self.notebook.pack(expand=True, fill="both")
+
+        # TAB 1 (KOSONG)
+        self.tab1 = tk.Frame(self.notebook, bg=BG_COLOR)
+        self.notebook.add(self.tab1, text="Data Stream")
+
+        # TAB 2 (ISI KONTEN LAMA)
+        self.tab2 = tk.Frame(self.notebook, bg=BG_COLOR)
+        self.notebook.add(self.tab2, text="Program Status")
+
+        # =========================
+        # WIDGET DIBUAT DI TAB 1
+        # =========================
+
+        self.data1Txt = tk.Label(
+            self.tab1, text="Data 1 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data2Txt = tk.Label(
+            self.tab1, text="Data 2 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data3Txt = tk.Label(
+            self.tab1, text="Data 3 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data4Txt = tk.Label(
+            self.tab1, text="Data 4 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data5Txt = tk.Label(
+            self.tab1, text="Data 5 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data6Txt = tk.Label(
+            self.tab1, text="Data 6 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data7Txt = tk.Label(
+            self.tab1, text="Data 7 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data8Txt = tk.Label(
+            self.tab1, text="Data 8 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data9Txt = tk.Label(
+            self.tab1, text="Data 9 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.data10Txt = tk.Label(
+            self.tab1, text="Autoscroll : inactive", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        # =========================
+        # WIDGET DIBUAT DI TAB 2
+        # =========================
+
+        # BUTTONS
+        self.restartBtn = tk.Button(
+            self.tab2, 
+            text="Restart", 
+            font=FONT_MAIN, 
+            height=1, 
+            width=7,
+            bg="white",
+            relief="flat"
+        )
+
+        self.stopBtn1 = tk.Button(
+            self.tab2, 
+            text="Stop", 
+            font=FONT_MAIN, 
+            height=1, 
+            width=7,
+            bg="white",
+            relief="flat"
+        )
+
+        self.stopBtn2 = tk.Button(
+            self.tab2, 
+            text="Stop", 
+            font=FONT_MAIN, 
+            height=1, 
+            width=7,
+            bg="white",
+            relief="flat"
+        )
+
+        self.stopBtn3 = tk.Button(
+            self.tab2, 
+            text="Stop", 
+            font=FONT_MAIN, 
+            height=1, 
+            width=7,
+            bg="white",
+            relief="flat"
+        )
+
+        # STATIC LABELS
+        self.prog1Txt = tk.Label(
+            self.tab2, text="Data Handler Status", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.lastHB1Txt = tk.Label(
+            self.tab2, text="Last Heartbeat", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.prog2Txt = tk.Label(
+            self.tab2, text="Module IO Status", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.lastHB2Txt = tk.Label(
+            self.tab2, text="Last Heartbeat", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.prog3Txt = tk.Label(
+            self.tab2, text="Modbus TCP Status", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.lastHB3Txt = tk.Label(
+            self.tab2, text="Last Heartbeat", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.debug1Txt = tk.Label(
+            self.tab2, text="Debug message 1", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.debug2Txt = tk.Label(
+            self.tab2, text="Debug message 2", font=FONT_MAIN, bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        # DYNAMIC LABELS
+        self.prog1Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="INIT", fg="gray", bg=BG_COLOR
+        )
+        self.lastHB1Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="-", bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.prog2Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="INIT", fg="gray", bg=BG_COLOR
+        )
+        self.lastHB2Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="-", bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.prog3Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="STOP", fg="red", bg=BG_COLOR
+        )
+        self.lastHB3Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="-", bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self.debug1Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="", bg=BG_COLOR, fg=FG_COLOR
+        )
+        self.debug2Lbl = tk.Label(
+            self.tab2, font=FONT_MAIN, text="", bg=BG_COLOR, fg=FG_COLOR
+        )
+
+        self._place_widgets()
+
+    # =========================
+    # LAYOUT (TETAP SAMA)
+    # =========================
+    def _place_widgets(self):
+        upper = 10
+        gap = 30
+        self.data1Txt.place(x=10, y=upper)
+        self.data2Txt.place(x=10, y=upper + gap)
+        self.data3Txt.place(x=10, y=upper + gap * 2)
+        self.data4Txt.place(x=10, y=upper + gap * 3)
+        self.data5Txt.place(x=10, y=upper + gap * 4)
+        self.data6Txt.place(x=10, y=upper + gap * 5)
+        self.data7Txt.place(x=10, y=upper + gap * 6)
+        self.data8Txt.place(x=10, y=upper + gap * 7)
+        self.data9Txt.place(x=10, y=upper + gap * 8)
+        self.data10Txt.place(x=10, y=upper + gap * 9)
+
+        self.prog1Txt.place(x=10, y=50)
+        self.lastHB1Txt.place(x=10, y=105)
+
+        self.prog2Txt.place(x=10, y=200)
+        self.lastHB2Txt.place(x=10, y=255)
+
+        self.prog3Txt.place(x=10, y=350)
+        self.lastHB3Txt.place(x=10, y=405)
+
+        self.debug1Txt.place(x=10, y=500)
+        self.debug2Txt.place(x=10, y=555)
+
+        self.prog1Lbl.place(x=225, y=50)
+        self.lastHB1Lbl.place(x=225, y=105)
+
+        self.prog2Lbl.place(x=225, y=200)
+        self.lastHB2Lbl.place(x=225, y=255)
+
+        self.prog3Lbl.place(x=225, y=350)
+        self.lastHB3Lbl.place(x=225, y=405)
+
+        self.debug1Lbl.place(x=225, y=500)
+        self.debug2Lbl.place(x=225, y=555)
+
+        self.restartBtn.place(x=10, y=625)
+        self.stopBtn1.place(x=375, y=45)
+        self.stopBtn2.place(x=375, y=195)
+        self.stopBtn3.place(x=375, y=345)
+
 def initTkinter():
-    class MyScreen:
-        screen = tk.Tk()
-        screen.title("TMU Gateway")
-        width= screen.winfo_screenwidth() 
-        height= screen.winfo_screenheight()
-        screen.geometry("%dx%d" % (width, height))
-        screen.attributes('-topmost', True)
-        screen.configure(background='#17C0EB')
-
-        restartBtn = tk.Button(
-            screen,
-            text = "Restart",
-            font = ("Helvetica",16),
-            height = 1,
-            width = 7)
-        stopBtn1 = tk.Button(
-            screen,
-            text = "Stop",
-            font = ("Helvetica",16),
-            height = 1,
-            width = 7)
-        prog1Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Data Handler Status"
-                )
-        prog1Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        lastHB1Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Last Heartbeat"
-                )
-        lastHB1Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        stopBtn2 = tk.Button(
-            screen,
-            text = "Stop",
-            font = ("Helvetica",16),
-            height = 1,
-            width = 7)
-        prog2Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Module IO Status"
-                )
-        prog2Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        lastHB2Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Last Heartbeat"
-                )
-        lastHB2Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        stopBtn3 = tk.Button(
-            screen,
-            text = "Stop",
-            font = ("Helvetica",16),
-            height = 1,
-            width = 7)
-        prog3Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Modbus TCP Status"
-                )
-        prog3Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        lastHB3Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Last Heartbeat"
-                )
-        lastHB3Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        debug1Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Debug message 1"
-                )
-        debug1Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-        debug2Txt = tk.Label(
-                screen,
-                font = ("Helvetica",16),
-                text = "Debug message 2"
-                )
-        debug2Lbl = tk.Label(
-                screen,
-                font = ("Helvetica",16)
-                )
-    mainScreen = MyScreen()
-    mainScreen.prog1Txt.place(x = 10, y = 50)
-    mainScreen.lastHB1Txt.place(x = 10, y = 105)
-    mainScreen.prog2Txt.place(x = 10, y = 200)
-    mainScreen.lastHB2Txt.place(x = 10, y = 255)
-    mainScreen.prog3Txt.place(x = 10, y = 350)
-    mainScreen.lastHB3Txt.place(x = 10, y = 405)
-    mainScreen.debug1Txt.place(x = 10, y = 500)
-    mainScreen.debug2Txt.place(x = 10, y = 555)
-
-    mainScreen.prog1Lbl.place(x = 225, y = 50)
-    mainScreen.lastHB1Lbl.place(x = 225, y = 105)
-    mainScreen.prog2Lbl.place(x = 225, y = 200)
-    mainScreen.lastHB2Lbl.place(x = 225, y = 255)
-    mainScreen.prog3Lbl.place(x = 225, y = 350)
-    mainScreen.lastHB3Lbl.place(x = 225, y = 405)
-    mainScreen.debug1Lbl.place(x = 225, y = 500)
-    mainScreen.debug2Lbl.place(x = 225, y = 555)
-
-    mainScreen.restartBtn.place(x = 10, y = 625)
-    mainScreen.stopBtn1.place(x = 325, y = 45)
-    mainScreen.stopBtn2.place(x = 325, y = 195)
-    mainScreen.stopBtn3.place(x = 325, y = 345)
-    return mainScreen
+    return MyScreen()
