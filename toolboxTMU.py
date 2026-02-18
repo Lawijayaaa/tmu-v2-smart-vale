@@ -603,10 +603,7 @@ class MyScreen:
             self.tab1, text="Data 8 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
         )
         self.data9Txt = tk.Label(
-            self.tab1, text="Data 9 : Null", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
-        )
-        self.data10Txt = tk.Label(
-            self.tab1, text="Autoscroll : inactive", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
+            self.tab1, text="Autoscroll : 0", font=FONT_DATA, bg=BG_COLOR, fg=FG_COLOR
         )
 
         # =========================
@@ -729,7 +726,6 @@ class MyScreen:
         self.data7Txt.place(x=10, y=upper + gap * 6)
         self.data8Txt.place(x=10, y=upper + gap * 7)
         self.data9Txt.place(x=10, y=upper + gap * 8)
-        self.data10Txt.place(x=10, y=upper + gap * 9)
 
         self.prog1Txt.place(x=10, y=50)
         self.lastHB1Txt.place(x=10, y=105)
