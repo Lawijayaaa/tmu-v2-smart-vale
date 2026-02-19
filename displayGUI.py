@@ -16,10 +16,6 @@ class DisplayGUI:
         self.pageNow = 0
         self.timeThen = time.time()
 
-        # ===== TITLE =====
-        title = tk.Label(root, text="DATA STREAM", font=("Arial", 16, "bold"))
-        title.pack(pady=10)
-
         # ===== DATA LABELS =====
         self.data_labels = []
 
