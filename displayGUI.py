@@ -7,8 +7,10 @@ class DisplayGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Data Stream")
+        width = self.root.winfo_screenwidth()
+        height = self.root.winfo_screenheight()
+        self.root.geometry(f"{width}x{height}")
         self.root.attributes("-topmost", True)
-        self.root.geometry("+0+0")
         self.ds = DataStream()
 
         self.pageNow = 0

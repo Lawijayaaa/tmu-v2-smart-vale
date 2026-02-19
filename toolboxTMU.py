@@ -555,7 +555,7 @@ class MyScreen:
         height = self.screen.winfo_screenheight()
         self.screen.geometry(f"{width}x{height}")
         self.screen.configure(background=BG_COLOR)
-        self.screen.attributes("-topmost", True)
+        #self.screen.attributes("-topmost", True)
 
         # Emergency exit
         self.screen.bind("<Escape>", lambda e: self.screen.destroy())
