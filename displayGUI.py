@@ -50,7 +50,7 @@ class DisplayGUI:
 
         data, colorProp, blinkProp = map(list, zip(*snapshot))
 
-        for i in range(8):
+        for i in range(13):
 
             self.data_labels[i]["text"] = data[i]
 

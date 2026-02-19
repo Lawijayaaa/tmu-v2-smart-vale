@@ -246,7 +246,7 @@ def main():
             cursor.execute(sqlLibrary.sqlUpdateTapPos, (tapPos,))
 
         if pressureStat:
-            inputData[43] = (analogIn2 - 6553) / 26214
+            inputData[43] = max(0, round((analogIn2 - 6553) / 26214, 3))
         else:
             inputData[43] = 0
         
