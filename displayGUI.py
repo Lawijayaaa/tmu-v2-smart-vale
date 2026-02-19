@@ -21,11 +21,11 @@ class DisplayGUI:
         # ===== DATA LABELS =====
         self.data_labels = []
 
-        for i in range(8):
+        for i in range(13):
             lbl = tk.Label(
                 root,
                 text=f"Data{i+1} = Null",
-                font=("Consolas", 12),
+                font=("Consolas", 13),
                 anchor="w",
                 width=50
             )
@@ -67,11 +67,10 @@ class DisplayGUI:
         self.autoscrollLbl["text"] = f"Autoscroll : {autoscroll}s"
         if autoscroll > 0:
             if timeNow - self.timeThen > autoscroll:
-                if self.pageNow == 10:
+                if self.pageNow == 4:
                     self.pageNow = 0
                 else:
                     self.pageNow += 1
-
                 self.timeThen = timeNow
         else:
             self.pageNow = 0
