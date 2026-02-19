@@ -20,8 +20,7 @@ class DataStream:
         """)
         row = cursor.fetchone()
         cursor.close()
-        if row and row[0] != self.last_data_id:
-            self.last_data_id = row[0]
+        if row:
             return row
         return None
 
@@ -34,7 +33,10 @@ class DataStream:
         """)
         row = cursor.fetchone()
         cursor.close()
-        return row
+        result = list(row)
+        result.pop(0)
+        print(result)
+        return result
 
     def get_autoscroll(self):
         cursor = self.conn.cursor(dictionary=True)
@@ -50,6 +52,13 @@ class DataStream:
         return 0
     
     def get_pages(self, textPropVal, textPropStat, colorPropStat, blinkPropStat, page):
+        textPropVal.insert(0, 0)
+        textPropStat.insert(0, 0)
+        colorPropStat.insert(0, 0)
+        blinkPropStat.insert(0, 0)
+        #print(textPropStat)
+        #print(colorPropStat)
+        #print(blinkPropStat)
         pages = {0: ([textPropVal[1], False, False],
                      [textPropVal[5], False, False],
                      [textPropVal[6], False, False],
@@ -138,20 +147,21 @@ class DataStream:
                      [textPropStat[21], colorPropStat[21], blinkPropStat[21]],
                      [textPropStat[22], colorPropStat[22], blinkPropStat[22]],
                      [textPropStat[23], colorPropStat[23], blinkPropStat[23]]),
-                 11: ([textPropStat[25], colorPropStat[25], blinkPropStat[25]],
+                 11: ([textPropStat[24], colorPropStat[24], blinkPropStat[24]],
+                     [textPropStat[25], colorPropStat[25], blinkPropStat[25]],
                      [textPropStat[26], colorPropStat[26], blinkPropStat[26]],
                      [textPropStat[27], colorPropStat[27], blinkPropStat[27]],
                      [textPropStat[28], colorPropStat[28], blinkPropStat[28]],
-                     [textPropStat[29], colorPropStat[29], blinkPropStat[29]],
                      [" ", False, False],
                      [" ", False, False],
                      [" ", False, False])
                      }
-        return pages.get(page, pages[0])
+        result = pages.get(page, pages[0])
+        return result
 
     def get_snapshot(self, page = 0):
         values = self.get_latest_values()
-        if not values or len(values) < 59:
+        if not values or len(values) < 58:
             return None
         status = self.get_status()
 
