@@ -11,6 +11,7 @@ class DataStream:
         self.last_data_id = None
 
     def get_latest_values(self):
+        self.conn.commit()
         cursor = self.conn.cursor()
         cursor.execute("""
             SELECT *
@@ -25,6 +26,7 @@ class DataStream:
         return None
 
     def get_status(self):
+        self.conn.commit()
         cursor = self.conn.cursor()
         cursor.execute("""
             SELECT *
